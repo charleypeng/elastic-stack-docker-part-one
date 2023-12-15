@@ -68,6 +68,7 @@ services:
           "      - elasticsearch5\n"\
           "      - elasticsearch6\n"\
           "      - elasticsearch7\n"\
+          "      - haproxy\n"\
           "      - kibana\n"\
           "      - localhost\n"\
           "    ip:\n"\
