@@ -75,7 +75,6 @@ services:
           "      - 10.10.21.133\n"\
           "      - 10.10.21.134\n"\
           "      - 10.10.21.137\n"\
-          "      - elasticsearch5\n"\
           "      - 127.0.0.1\n"\
           > config/certs/instances.yml;
           bin/elasticsearch-certutil cert --silent --pem -out config/certs/certs.zip --in config/certs/instances.yml --ca-cert config/certs/ca/ca.crt --ca-key config/certs/ca/ca.key;
