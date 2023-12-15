@@ -3,6 +3,10 @@ version: "3.8"
 volumes:
   certs:
     driver: local
+    driver_opts:
+      type: nfs
+      o: addr=10.10.21.164
+      device: :/home/atc/atcshare
   esdata01:
     driver: local
   kibanadata:
